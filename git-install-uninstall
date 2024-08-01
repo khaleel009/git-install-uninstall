@@ -1,0 +1,24 @@
+#######################
+
+GIT Installaton.
+
+#######################
+
+
+sudo apt update -y
+sudo apt install git -y
+git config --global user.name "<user-name>"
+git config --global user.email "<email@address.com>"
+
+
+#######################
+
+GIT UnInstallaton.
+
+#######################
+
+sudo apt-get remove git -y
+sudo apt-get purge git -y
+sudo rm ~/.gitconfig
+
+
